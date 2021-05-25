@@ -1,0 +1,16 @@
+$phone: 600px;
+$tablet-portrait: 900px;
+$tablet-landscape: 1200px;
+$big-desktop: 1800px;
+
+@mixin respondMax($breakpoint) {
+  @media (max-width: $breakpoint/16px *1em) {
+    @content;
+  }
+}
+
+@mixin respondMin($breakpoint) {
+  @media (min-width: $breakpoint/16px *1em) {
+    @content;
+  }
+}

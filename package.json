@@ -1,12 +1,13 @@
 {
-  "name": "boilerplate1.5",
+  "name": "nexter",
   "version": "1.0.0",
-  "description": "",
+  "description": "nexter website",
   "main": "index.js",
   "scripts": {
     "dev-server": "webpack-dev-server --mode development",
     "build": "webpack --watch --mode development",
-    "buildProduction": "webpack --mode production"
+    "buildProduction": "webpack --mode production",
+    "compile:sass": "node-sass ../nexter/sass/main.scss ../nexter/public/index.css -w"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +17,7 @@
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "core-js": "^3.6.5",
+    "node-sass": "^6.0.0",
     "regenerator-runtime": "^0.13.7",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",

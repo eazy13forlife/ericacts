@@ -15721,11 +15721,6 @@ module.exports = g;
 "use strict";
 
 
-var mike = {
-  dog: "yes",
-  mike: "np"
-};
-
 /***/ }),
 
 /***/ 0:
