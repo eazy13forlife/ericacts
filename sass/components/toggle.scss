@@ -1,0 +1,56 @@
+.toggle {
+  &__container {
+    width: 3.5rem;
+    background-color: green;
+    display: flex;
+    border-radius: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    height: 1.2rem;
+    position: relative;
+  }
+
+  &__options {
+    width: 3.2rem;
+    display: flex;
+    font-size: 0.8rem;
+    justify-content: space-between;
+  }
+  &__radio-button {
+    display: none;
+    &--light {
+      &:checked ~ .toggle__circle {
+        left: 2%;
+        transform: translateX(-0%) translateY(-50%);
+      }
+    }
+    &--default {
+      &:checked ~ .toggle__circle {
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+      }
+    }
+    &--dark {
+      &:checked ~ .toggle__circle {
+        left: 98%;
+        transform: translateX(-100%) translateY(-50%);
+      }
+    }
+  }
+  &__reference {
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: red;
+    border-radius: 50%;
+    opacity: 0;
+  }
+  &__circle {
+    position: absolute;
+    width: 0.8rem;
+    height: 0.8rem;
+    background-color: blue;
+    border-radius: 50%;
+    top: 50%;
+    transition: all 400ms;
+  }
+}

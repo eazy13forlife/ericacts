@@ -1,0 +1,50 @@
+.navigation {
+  &__checkbox {
+    display: none;
+    &:checked ~ .navigation__background {
+      transform: scale(200);
+    }
+    &:checked ~ .navigation__nav {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+  &__label {
+    display: inline-block;
+  }
+  &__button {
+    position: fixed;
+    right: 1.8rem;
+
+    width: 4rem;
+    height: 4rem;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  &__icon {
+  }
+  &__background {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    background-color: green;
+    position: fixed;
+    top: 0.3rem;
+    right: 2.3rem;
+    z-index: -2;
+    transition: all 400ms;
+  }
+  &__nav {
+    background-color: red;
+
+    height: 30rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    width: 0;
+    transition: all 400ms 500ms;
+  }
+}

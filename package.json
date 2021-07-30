@@ -1,13 +1,13 @@
 {
-  "name": "nexter",
+  "name": "sandbox",
   "version": "1.0.0",
-  "description": "nexter website",
+  "description": "sandbox to try out new code",
   "main": "index.js",
   "scripts": {
     "dev-server": "webpack-dev-server --mode development",
     "build": "webpack --watch --mode development",
     "buildProduction": "webpack --mode production",
-    "compile:sass": "node-sass ../nexter/sass/main.scss ../nexter/public/index.css -w"
+    "compile:sass": "sass ../html-css-sandbox/sass/main.scss ../html-css-sandbox/public/index.css -w"
   },
   "author": "",
   "license": "ISC",
@@ -17,7 +17,6 @@
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "core-js": "^3.6.5",
-    "node-sass": "^6.0.0",
     "regenerator-runtime": "^0.13.7",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
@@ -34,6 +33,7 @@
     "eslint-plugin-prettier": "^3.2.0",
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4.0.0",
-    "prettier": "2.2.1"
+    "prettier": "2.2.1",
+    "sass": "^1.36.0"
   }
 }

@@ -15721,6 +15721,10 @@ module.exports = g;
 "use strict";
 
 
+document.querySelector("#mike").addEventListener("click", function () {
+  console.log("hey");
+});
+
 /***/ }),
 
 /***/ 0:

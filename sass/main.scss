@@ -1,19 +1,5 @@
-@import "./abstracts/_mixins.scss";
-@import "./abstracts/_functions.scss";
-@import "./abstracts/_variables.scss";
-
-@import "./base/_base.scss";
-@import "./base/_utilities.scss";
-@import "./base/_animations.scss";
-@import "./base/_typography.scss";
-
-@import "./layout/_footer.scss";
-@import "./layout/_header.scss";
-@import "./layout/_sidebar.scss";
-@import "./layout/_realtors.scss";
-@import "./layout/_homes.scss";
-@import "./layout/_story.scss";
-@import "./layout/_gallery.scss";
-@import "./layout/_features.scss";
-
-@import "./pages/_home.scss";
+@use "abstracts";
+@use "base";
+@use "components";
+@use "layout";
+@use "pages"
