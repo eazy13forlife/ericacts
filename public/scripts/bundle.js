@@ -7,9 +7,7 @@
   \*************************/
 /***/ (() => {
 
-var paragraph = "The quick brown fox";
-var found = paragraph.match(/[A-z]/);
-console.log(found);
+
 
 /***/ }),
 

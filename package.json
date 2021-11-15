@@ -12,11 +12,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.21.1",
     "babel-cli": "^6.26.0",
     "babel-loader": "^8.2.2",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "clean-webpack-plugin": "^4.0.0-alpha.0",
     "core-js": "^3.16.0",
+    "moment": "^2.29.1",
     "regenerator-runtime": "^0.13.9",
     "webpack": "^5.47.1",
     "webpack-cli": "^4.7.2",
