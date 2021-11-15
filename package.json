@@ -7,7 +7,7 @@
     "dev-server": "webpack-dev-server --mode development",
     "build": "webpack --watch --mode development",
     "buildProduction": "webpack --mode production",
-    "compile:sass": "sass ../html-css-sandbox/sass/main.scss ../html-css-sandbox/public/index.css -w"
+    "compile:sass": "sass ./sass/main.scss ./public/index.css -w"
   },
   "author": "",
   "license": "ISC",
