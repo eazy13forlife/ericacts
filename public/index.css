@@ -21,6 +21,7 @@ body {
   box-sizing: border-box;
   font-size: 1.4rem;
   background-color: rgba(var(--color-black), 1);
+  padding: 0rem 4rem 5rem 4rem;
 }
 
 img {
@@ -52,7 +53,7 @@ select {
 
 .name-line {
   background-color: white;
-  width: 30%;
+  flex: 1 0 0;
   height: 0.2rem;
 }
 .name-line__left {
@@ -64,7 +65,7 @@ select {
 
 header {
   height: 5rem;
-  padding: 8rem 1rem;
+  padding: 8rem 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -79,15 +80,44 @@ header {
   color: white;
 }
 
-iframe {
-  margin-bottom: 1rem;
+.VideoContainer {
+  width: 70%;
+  height: 50rem;
+  overflow: none;
 }
-
-.VideoPlayer__container {
+@media (max-width: 62.5em) {
+  .VideoContainer {
+    width: 90%;
+  }
+}
+@media (max-width: 50em) {
+  .VideoContainer {
+    height: 40rem;
+  }
+}
+@media (max-width: 43.75em) {
+  .VideoContainer {
+    height: 30rem;
+  }
+}
+@media (max-width: 37.5em) {
+  .VideoContainer {
+    width: 100%;
+    height: 20rem;
+  }
+}
+.VideoContainer__full {
   background-color: white;
-  display: flex;
-  justify-content: center;
-  width: 62%;
+}
+@media (max-width: 37.5em) {
+  .VideoContainer__full {
+    width: 36rem;
+  }
+}
+@media (max-width: 26.875em) {
+  .VideoContainer__full {
+    width: 100%;
+  }
 }
 
 .Main {
@@ -95,8 +125,8 @@ iframe {
   flex-direction: column;
   align-items: center;
 }
-.Main *:not(:first-child) {
-  margin-top: 2rem;
+.Main .VideoContainer:not(:last-child) {
+  margin-bottom: 2rem;
 }
 
 /*# sourceMappingURL=index.css.map */

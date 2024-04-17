@@ -1,10 +1,31 @@
-iframe {
-  margin-bottom: 1rem;
-}
+@use "../abstracts";
 
-.VideoPlayer__container {
-  background-color: white;
-  display: flex;
-  justify-content: center;
-  width: 62%;
+.VideoContainer {
+  width: 70%;
+  height: 50rem;
+  overflow: none;
+  @include abstracts.respondMax(2000px) {
+  }
+  @include abstracts.respondMax(1000px) {
+    width: 90%;
+  }
+  @include abstracts.respondMax(800px) {
+    height: 40rem;
+  }
+  @include abstracts.respondMax(700px) {
+    height: 30rem;
+  }
+  @include abstracts.respondMax(600px) {
+    width: 100%;
+    height: 20rem;
+  }
+  &__full {
+    background-color: white;
+    @include abstracts.respondMax(600px) {
+      width: 36rem;
+    }
+    @include abstracts.respondMax(430px) {
+      width: 100%;
+    }
+  }
 }
