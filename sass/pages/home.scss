@@ -1,1 +1,6 @@
-
+.Main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 40rem);
+  padding: 0rem 2rem 8rem 2rem;
+}

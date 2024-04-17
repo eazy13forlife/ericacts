@@ -1,0 +1,16 @@
+header {
+  height: 5rem;
+  padding: 6rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Name {
+  font-family: "Antic Didone", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
+  letter-spacing: 0.4rem;
+  color: rgba(var(--color-black), 0.7);
+}

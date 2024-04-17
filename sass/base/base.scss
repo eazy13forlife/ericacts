@@ -1,3 +1,8 @@
+:root {
+  --color-black: 0, 0, 0;
+  --color-background: 246, 241, 239;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -15,6 +20,7 @@ body {
   line-height: 1.5;
   box-sizing: border-box;
   font-size: 1.4rem;
+  background-color: rgba(var(--color-background), 1);
 }
 
 img {

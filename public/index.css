@@ -1,3 +1,8 @@
+:root {
+  --color-black: 0, 0, 0;
+  --color-background: 246, 241, 239;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -15,6 +20,7 @@ body {
   line-height: 1.5;
   box-sizing: border-box;
   font-size: 1.4rem;
+  background-color: rgba(var(--color-background), 1);
 }
 
 img {
@@ -37,6 +43,35 @@ select {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+.antic-didone-regular {
+  font-family: "Antic Didone", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+  height: 5rem;
+  padding: 6rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Name {
+  font-family: "Antic Didone", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
+  letter-spacing: 0.4rem;
+  color: rgba(var(--color-black), 0.7);
+}
+
+.Main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 40rem);
+  padding: 0rem 2rem 8rem 2rem;
 }
 
 /*# sourceMappingURL=index.css.map */
