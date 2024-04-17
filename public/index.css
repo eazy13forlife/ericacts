@@ -64,7 +64,7 @@ select {
 
 header {
   height: 5rem;
-  padding: 6rem 1rem;
+  padding: 8rem 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
