@@ -12,13 +12,16 @@ header {
   font-family: "Antic Didone", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 4rem;
+  font-size: 3.5rem;
   letter-spacing: 0.4rem;
   color: white;
   @include abstracts.respondMax(500px) {
+    font-size: 3.3rem;
+  }
+  @include abstracts.respondMax(430px) {
     font-size: 3rem;
   }
-  @include abstracts.respondMax(4300px) {
-    font-size: 2, 5rem;
+  @include abstracts.respondMax(390px) {
+    font-size: 2.4rem;
   }
 }

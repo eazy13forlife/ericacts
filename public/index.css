@@ -61,6 +61,11 @@ select {
   flex: 1 0 0;
   height: 0.2rem;
 }
+@media (max-width: 21.875em) {
+  .name-line {
+    display: none;
+  }
+}
 .name-line__left {
   margin-right: 2rem;
 }
@@ -80,18 +85,23 @@ header {
   font-family: "Antic Didone", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 4rem;
+  font-size: 3.5rem;
   letter-spacing: 0.4rem;
   color: white;
 }
 @media (max-width: 31.25em) {
   .Name {
+    font-size: 3.3rem;
+  }
+}
+@media (max-width: 26.875em) {
+  .Name {
     font-size: 3rem;
   }
 }
-@media (max-width: 268.75em) {
+@media (max-width: 24.375em) {
   .Name {
-    font-size: 2, 5rem;
+    font-size: 2.4rem;
   }
 }
 

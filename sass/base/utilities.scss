@@ -1,7 +1,12 @@
+@use "../abstracts";
+
 .name-line {
   background-color: white;
   flex: 1 0 0;
   height: 0.2rem;
+  @include abstracts.respondMax(350px) {
+    display: none;
+  }
   &__left {
     margin-right: 2rem;
   }
