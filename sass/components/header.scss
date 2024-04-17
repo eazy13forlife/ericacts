@@ -1,3 +1,5 @@
+@use "../abstracts";
+
 header {
   height: 5rem;
   padding: 8rem 3rem;
@@ -13,4 +15,10 @@ header {
   font-size: 4rem;
   letter-spacing: 0.4rem;
   color: white;
+  @include abstracts.respondMax(500px) {
+    font-size: 3rem;
+  }
+  @include abstracts.respondMax(4300px) {
+    font-size: 2, 5rem;
+  }
 }

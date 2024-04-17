@@ -23,6 +23,11 @@ body {
   background-color: rgba(var(--color-black), 1);
   padding: 0rem 4rem 5rem 4rem;
 }
+@media (max-width: 31.25em) {
+  body {
+    padding: 0rem 2rem 5rem 2rem;
+  }
+}
 
 img {
   display: block;
@@ -79,11 +84,20 @@ header {
   letter-spacing: 0.4rem;
   color: white;
 }
+@media (max-width: 31.25em) {
+  .Name {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 268.75em) {
+  .Name {
+    font-size: 2, 5rem;
+  }
+}
 
 .VideoContainer {
   width: 70%;
   height: 50rem;
-  overflow: none;
 }
 @media (max-width: 62.5em) {
   .VideoContainer {
@@ -103,20 +117,42 @@ header {
 @media (max-width: 37.5em) {
   .VideoContainer {
     width: 100%;
-    height: 20rem;
   }
 }
-.VideoContainer__full {
+
+.VideoContainer-full {
+  width: 90rem;
+  height: 50rem;
   background-color: white;
 }
+@media (max-width: 84.375em) {
+  .VideoContainer-full {
+    width: 70%;
+  }
+}
+@media (max-width: 62.5em) {
+  .VideoContainer-full {
+    width: 90%;
+  }
+}
+@media (max-width: 51.875em) {
+  .VideoContainer-full {
+    height: 40rem;
+  }
+}
+@media (max-width: 43.75em) {
+  .VideoContainer-full {
+    height: 30rem;
+  }
+}
 @media (max-width: 37.5em) {
-  .VideoContainer__full {
-    width: 36rem;
+  .VideoContainer-full {
+    width: 100%;
   }
 }
 @media (max-width: 26.875em) {
-  .VideoContainer__full {
-    width: 100%;
+  .VideoContainer-full {
+    height: 20rem;
   }
 }
 

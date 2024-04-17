@@ -1,3 +1,5 @@
+@use "../abstracts";
+
 :root {
   --color-black: 0, 0, 0;
   --color-background: 246, 241, 239;
@@ -22,6 +24,9 @@ body {
   font-size: 1.4rem;
   background-color: rgba(var(--color-black), 1);
   padding: 0rem 4rem 5rem 4rem;
+  @include abstracts.respondMax(500px) {
+    padding: 0rem 2rem 5rem 2rem;
+  }
 }
 
 img {
