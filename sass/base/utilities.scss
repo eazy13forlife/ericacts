@@ -1,0 +1,11 @@
+.name-line {
+  background-color: white;
+  width: 30%;
+  height: 0.2rem;
+  &__left {
+    margin-right: 2rem;
+  }
+  &__right {
+    margin-left: 2rem;
+  }
+}

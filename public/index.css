@@ -20,7 +20,7 @@ body {
   line-height: 1.5;
   box-sizing: border-box;
   font-size: 1.4rem;
-  background-color: rgba(var(--color-background), 1);
+  background-color: rgba(var(--color-black), 1);
 }
 
 img {
@@ -50,6 +50,18 @@ select {
   font-style: normal;
 }
 
+.name-line {
+  background-color: white;
+  width: 30%;
+  height: 0.2rem;
+}
+.name-line__left {
+  margin-right: 2rem;
+}
+.name-line__right {
+  margin-left: 2rem;
+}
+
 header {
   height: 5rem;
   padding: 6rem 1rem;
@@ -64,14 +76,27 @@ header {
   font-style: normal;
   font-size: 4rem;
   letter-spacing: 0.4rem;
-  color: rgba(var(--color-black), 0.7);
+  color: white;
+}
+
+iframe {
+  margin-bottom: 1rem;
+}
+
+.VideoPlayer__container {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  width: 62%;
 }
 
 .Main {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(4, 40rem);
-  padding: 0rem 2rem 8rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Main *:not(:first-child) {
+  margin-top: 2rem;
 }
 
 /*# sourceMappingURL=index.css.map */
