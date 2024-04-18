@@ -75,7 +75,7 @@ select {
 
 header {
   height: 5rem;
-  padding: 8rem 3rem;
+  padding: 8rem 3rem 4rem 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -129,6 +129,11 @@ header {
     width: 100%;
   }
 }
+@media (max-width: 25em) {
+  .VideoContainer {
+    height: auto;
+  }
+}
 
 .VideoContainer-full {
   width: 90rem;
@@ -165,13 +170,39 @@ header {
     height: 20rem;
   }
 }
+@media (max-width: 25em) {
+  .VideoContainer-full {
+    width: 80%;
+  }
+}
+@media (max-width: 23.75em) {
+  .VideoContainer-full {
+    width: 80%;
+    height: 18rem;
+  }
+}
+@media (max-width: 23.125em) {
+  .VideoContainer-full {
+    width: 84%;
+  }
+}
+@media (max-width: 21.25em) {
+  .VideoContainer-full {
+    width: 90%;
+  }
+}
+@media (max-width: 20.625em) {
+  .VideoContainer-full {
+    width: 94%;
+  }
+}
 
 .Main {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.Main .VideoContainer:not(:last-child) {
+.Main div:not(:last-child) {
   margin-bottom: 2rem;
 }
 

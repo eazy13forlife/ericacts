@@ -15,6 +15,9 @@
   @include abstracts.respondMax(600px) {
     width: 100%;
   }
+  @include abstracts.respondMax(400px) {
+    height: auto;
+  }
 }
 
 .VideoContainer-full {
@@ -38,5 +41,21 @@
   }
   @include abstracts.respondMax(430px) {
     height: 20rem;
+  }
+  @include abstracts.respondMax(400px) {
+    width: 80%;
+  }
+  @include abstracts.respondMax(380px) {
+    width: 80%;
+    height: 18rem;
+  }
+  @include abstracts.respondMax(370px) {
+    width: 84%;
+  }
+  @include abstracts.respondMax(340px) {
+    width: 90%;
+  }
+  @include abstracts.respondMax(330px) {
+    width: 94%;
   }
 }
