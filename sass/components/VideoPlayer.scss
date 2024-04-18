@@ -16,7 +16,7 @@
     width: 100%;
   }
   @include abstracts.respondMax(400px) {
-    height: auto;
+    height: 25rem;
   }
 }
 
@@ -43,19 +43,17 @@
     height: 20rem;
   }
   @include abstracts.respondMax(400px) {
-    width: 80%;
+    height: 25rem;
   }
   @include abstracts.respondMax(380px) {
-    width: 80%;
-    height: 18rem;
   }
   @include abstracts.respondMax(370px) {
-    width: 84%;
+    height: 24rem;
   }
-  @include abstracts.respondMax(340px) {
-    width: 90%;
+  @include abstracts.respondMax(360px) {
+    height: 22rem;
   }
-  @include abstracts.respondMax(330px) {
-    width: 94%;
+  @include abstracts.respondMax(335px) {
+    height: 20rem;
   }
 }

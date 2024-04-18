@@ -131,7 +131,7 @@ header {
 }
 @media (max-width: 25em) {
   .VideoContainer {
-    height: auto;
+    height: 25rem;
   }
 }
 
@@ -172,28 +172,22 @@ header {
 }
 @media (max-width: 25em) {
   .VideoContainer-full {
-    width: 80%;
-  }
-}
-@media (max-width: 23.75em) {
-  .VideoContainer-full {
-    width: 80%;
-    height: 18rem;
+    height: 25rem;
   }
 }
 @media (max-width: 23.125em) {
   .VideoContainer-full {
-    width: 84%;
+    height: 24rem;
   }
 }
-@media (max-width: 21.25em) {
+@media (max-width: 22.5em) {
   .VideoContainer-full {
-    width: 90%;
+    height: 22rem;
   }
 }
-@media (max-width: 20.625em) {
+@media (max-width: 20.9375em) {
   .VideoContainer-full {
-    width: 94%;
+    height: 20rem;
   }
 }
 
