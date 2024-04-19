@@ -21,11 +21,11 @@ body {
   box-sizing: border-box;
   font-size: 1.4rem;
   background-color: rgba(var(--color-black), 1);
-  padding: 0rem 4rem 5rem 4rem;
+  padding: 0rem 4rem 0rem 4rem;
 }
 @media (max-width: 31.25em) {
   body {
-    padding: 0rem 2rem 5rem 2rem;
+    padding: 0rem 2rem 0rem 2rem;
   }
 }
 
@@ -189,6 +189,21 @@ header {
   .VideoContainer-full {
     height: 20rem;
   }
+}
+
+footer {
+  margin-top: 5rem;
+  padding: 5rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid white;
+}
+
+.Footer__link {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  font-size: 2rem;
 }
 
 .Main {

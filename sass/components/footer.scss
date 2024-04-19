@@ -1,0 +1,16 @@
+footer {
+  margin-top: 5rem;
+  padding: 5rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid white;
+}
+
+.Footer {
+  &__link {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    font-size: 2rem;
+  }
+}
